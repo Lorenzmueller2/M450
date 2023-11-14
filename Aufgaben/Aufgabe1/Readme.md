@@ -11,3 +11,7 @@
 3. **Akzeptanztests:**
    - *Beschreibung:* Überprüfen, ob die Software die festgelegten Anforderungen erfüllt.
    - *Beispiel:* Testen des reibungslosen Bestellvorgangs in einer E-Commerce-Anwendung.
+
+# Aufgabe 2
+
+Ein Beispiel für einen Softwarefehler könnte ein Programmierfehler sein, der zu einem Absturz führt, wenn bestimmte Eingabedaten verarbeitet werden. Ein Softwaremangel könnte dagegen darin bestehen, dass eine Anwendung Funktionen fehlt, die von den Benutzern erwartet werden, wie zum Beispiel das Fehlen einer Exportfunktion für PDF-Dateien in einer Textverarbeitungssoftware.
