@@ -29,6 +29,21 @@
 |5|Preisberechnung|Der Preis wird nach Anzahl Kilometer berechnet|Der Preis ist immer 0|Fehler|Das System hat keinen zugriff auf das Auto und kann somit den Kilometerstand nicht lesen kann|
 
 
+## 3)
 
+### Black-Box Testfälle
+- Account erstellen
+- Account editieren
+- Kontostand aufrufen
+- Geld abheben
+- Geld einzahlen
 
+### White-Box Testfälle
+- "chooseAccount()", da es viele Verzweigungen/Cases gibt.
+- "getExchangeRate()", da diese auf eine API zugreift.
+- "withdraw()", da es Änderungen and dem Kontostand gibt.
+- "deposit()", da es Änderungen and dem Kontostand gibt. 
+- "editAccount()", da es viele Verzweigungen/Cases gibt und wichtige Änderungen vorgenommen werden.
 
+### Best Practices
+Bessere Aufteilung der Methoden. Ich finde vom naming her, sollten ein paar Methoden in andere Klassen gezügelt werden.
