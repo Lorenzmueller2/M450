@@ -1,6 +1,8 @@
-package ch.schule;
+package Aufgabe3.bank.src.main.java.ch.schedule;
 
 import java.util.*;
+import Aufgabe3.bank.src.main.java.ch.schedule.Account;
+
 
 public class AccountInverseBalanceComparator
 	implements Comparator<Object>

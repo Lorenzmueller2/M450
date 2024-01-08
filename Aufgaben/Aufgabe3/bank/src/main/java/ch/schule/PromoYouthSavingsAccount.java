@@ -1,5 +1,4 @@
-package ch.schule;
-
+Aufgabe3.bank.src.main.java.ch.schedule.Bank
 /**
  * Promotional youth savings account.
  *
@@ -8,7 +7,7 @@ package ch.schule;
  * @author Roger H. J&ouml;rg
  * @version 1.0
  */
-public class PromoYouthSavingsAccount extends SavingsAccount
+public class PromoYouthSavingsAccount extends ch.schule.SavingsAccount
 {
 	/**
 	 * Initializes a new instance of this account.

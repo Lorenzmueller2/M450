@@ -1,4 +1,6 @@
-package ch.schule;
+package Aufgabe3.bank.src.main.java.ch.schedule;
+
+import Aufgabe3.bank.src.main.java.ch.schedule.Bank;
 
 public class Main {
 

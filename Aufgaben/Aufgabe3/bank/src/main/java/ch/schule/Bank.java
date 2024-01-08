@@ -1,5 +1,8 @@
-package ch.schule;
+package Aufgabe3.bank.src.main.java.ch.schedule;
+
 import java.util.*;
+import Aufgabe3.bank.src.main.java.ch.schedule.Account;
+
 
 /**
  * Die Bank.
@@ -38,7 +41,7 @@ public class Bank
 		String id = "S-" + nextAccountId;
 
 	    ++nextAccountId;
-		accounts.put(id, new SavingsAccount(id));
+		accounts.put(id, new ch.schule.SavingsAccount(id));
 
 		return id;
 	}
@@ -55,7 +58,7 @@ public class Bank
 		++nextAccountId;
 
 		accounts.put(id,
-			new PromoYouthSavingsAccount(id));
+			new ch.schule.PromoYouthSavingsAccount(id));
 
 		return id;
 	}
@@ -74,7 +77,7 @@ public class Bank
         String id = "P-" + nextAccountId;
 
 		++nextAccountId;
-		accounts.put(id,new SalaryAccount(id, creditLimit));
+		accounts.put(id,new ch.schule.SalaryAccount(id, creditLimit));
 
 		return id;
 	
@@ -220,7 +223,7 @@ public class Bank
 		Account[] aa = (Account[]) accounts.values().toArray(
 			  new Account[accounts.size()]);
 
-	    Arrays.sort(aa, new AccountBalanceComparator());
+	    Arrays.sort(aa, new Aufgabe3.bank.src.main.java.ch.schedule.AccountBalanceComparator());
 
 	    for (int i = 0; (i < 5) && (i < aa.length); ++i)
 		{
@@ -238,7 +241,7 @@ public class Bank
 			  new Account[accounts.size()]);
 
 		Arrays.sort(aa,
-			new AccountInverseBalanceComparator());
+			new ch.schule.AccountInverseBalanceComparator());
 
 		for (int i = 0; (i < 5) && (i < aa.length); ++i)
 		{

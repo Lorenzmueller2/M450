@@ -1,5 +1,5 @@
-package ch.schule;
-
+Aufgabe3.bank.src.main.java.ch.schedule.Bank
+import Aufgabe3.bank.src.main.java.ch.schedule.Account;
 /**
  * Lohnkonto.
  *

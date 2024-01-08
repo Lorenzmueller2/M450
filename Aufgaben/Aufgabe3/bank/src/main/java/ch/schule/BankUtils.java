@@ -1,4 +1,4 @@
-package ch.schule;
+package Aufgabe3.bank.src.main.java.ch.schedule;
 
 import java.text.*;
 

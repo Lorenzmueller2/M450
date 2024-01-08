@@ -3,6 +3,7 @@ package ch.schule.bank.junit5;
 import ch.schule.Account;
 import ch.schule.SalaryAccount;
 import ch.schule.SavingsAccount;
+import org.junit.Test;
 import org.junit.jupiter.api.*;
 
 

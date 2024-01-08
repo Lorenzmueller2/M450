@@ -1,5 +1,7 @@
 package ch.schule;
 
+import ch.schule.BankUtils;
+
 /**
  * Buchung.
  * @author  Roger H. J&ouml;rg
